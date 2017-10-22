@@ -1,4 +1,5 @@
 command permissions 
-new ping measurment(more accurate)
+new ping measurment (more accurate)
 kick/ban/mute user messages 
 extended log
+multiple classes for stuff (connection, commands, logs, eventArgs...)
