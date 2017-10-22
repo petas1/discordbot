@@ -1,0 +1,4 @@
+command permissions 
+new ping measurment(more accurate)
+kick/ban/mute user messages 
+extended log
