@@ -3,3 +3,4 @@ new ping measurment (more accurate)
 kick/ban/mute user messages 
 extended log
 multiple classes for stuff (connection, commands, logs, eventArgs...)
+bot serever: offline status
