@@ -33,7 +33,7 @@ namespace PeTaS_Bot_App
             var commands = discord.GetService<CommandService>();
             
             commands.CreateCommand("ping")
-                .Do(async e =>
+                .Do(async (e) =>
                 {
 
                     string pingValue;
@@ -197,7 +197,10 @@ namespace PeTaS_Bot_App
 					{
 						await e.Channel.Sendmessge("You can't shut down the bot, beacuse yout aren't owner.")
 					}
-					if (getArg("now") )
+					if (getArg("now") != null)
+					{
+						Enviroment.ShutDown();
+					}
 				});
 			
 
