@@ -1,8 +1,7 @@
 using Discord;
+using Discord.Commands;
 using System.Net;
 using System.Net.NetworkInformation;
-
-
 
 onButtonKickKlick(object sender, eventArg e)
 {
